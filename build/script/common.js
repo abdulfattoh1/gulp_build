@@ -1,0 +1,1 @@
+"use strict";var btn=document.querySelector(".nav__burger"),menu=document.querySelector(".menu");btn.addEventListener("click",function(){menu.classList.add("active")}),document.addEventListener("click",function(e){console.log(e),menu.classList.contains("active")&&e.target!=btn&&"menu__link"!=e.target.className&&menu.classList.remove("active")});
